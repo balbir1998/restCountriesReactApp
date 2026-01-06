@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import Header from "./components/Header";
 import "./index.css";
-import { ThemeProvider } from "./contexts/themeContext";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 const App = () => {
     return (
