@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-media500: 500px;
+    --breakpoint-media840: 840px;
+}
+
+@layer utilities {
+    .h-custom {
+        min-height: calc(100vh - 72px);
+    }
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    --background-color: transparent;
+    --text-color: black;
+    --elements-color: white;
+    --shimmer-color: hsl(0, 0%, 78%);
+}
+
+header.dark-mode,
+main.dark-mode {
+    --background-color: hsl(207, 26%, 17%);
+    --text-color: white;
+    --elements-color: hsl(209, 23%, 22%);
+    --shimmer-color: hsl(208, 21%, 34%);
+}   
